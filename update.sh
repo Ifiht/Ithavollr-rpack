@@ -1,7 +1,7 @@
 #!/bin/env bash
 
 echo "))}> Cloning Repo..."
-git clone https://github.com/Ifiht/PacMan.git
+git clone --depth 1 https://github.com/Ifiht/PacMan.git
 echo "))}> Deleting old assets..."
 rm -rf assets
 echo "))}> Moving new assets..."
